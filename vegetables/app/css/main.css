@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+  color: inherit; }
+
+a:hover {
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+  color: inherit; }
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+  color: inherit; }
+
+a:visited {
+  text-decoration: none;
+  outline: none;
+  outline-style: none; }
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
+input, textarea {
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+  border: none; }
+
+button {
+  background-color: transparent;
+  outline-style: none;
+  border: none; }
+
+button:hover {
+  background-color: transparent;
+  outline-style: none; }
+
+button:focus {
+  background-color: transparent;
+  outline-style: none; }
+
+section {
+  display: inline-block;
+  width: 100%; }
+
+.parallax-container {
+  height: 320px;
+  background: transparent; }
+
+.no-gutter [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+a.sign {
+  display: inline-block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #fffefe;
+  border: 3px solid #787878;
+  font-size: 24px;
+  padding: 15px 40px;
+  font-family: "Montserrat-Regular"; }
+  a.sign:hover {
+    border: 3px solid #fffefe;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+
+p {
+  font-size: 16px;
+  color: #787878;
+  font-family: "OpenSansLight"; }
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  margin: 40px 0;
+  font-family: "Montserrat-Bold"; }
+
+h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Montserrat-Regular"; }
+
+h5 {
+  font-size: 18px;
+  font-family: "OpenSansLight";
+  color: #787878;
+  margin: 15px 0; }
+
+header {
+  height: 100vh;
+  display: block;
+  width: 100%;
+  background-image: url("../img/top-bg.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  text-align: center; }
+  header ul, header li {
+    display: inline-block;
+    list-style: none; }
+  header li {
+    padding: 20px 33px;
+    text-transform: uppercase; }
+  header h3 {
+    color: #f7b519;
+    font-size: 36px;
+    text-transform: none; }

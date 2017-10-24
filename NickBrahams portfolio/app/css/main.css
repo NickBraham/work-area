@@ -299,12 +299,7 @@ p {
 header {
   height: 100vh;
   display: block;
-  display: block;
-  position: relative;
-  background-image: url(../img/bg-top.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-   }
+  position: relative; }
   header h3 {
     font-family: "GothamProMedium"; }
   header h4 {
@@ -333,10 +328,7 @@ header {
 /*========== Lockup ==========*/
 #lockup {
   height: 100vh;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); 
-  background-image: url(../img/bg-top-4.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;}
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   #lockup h3 {
     color: #fff; }
   #lockup p {
@@ -366,10 +358,7 @@ header {
 
 /*========== Advantage ==========*/
 #advantage {
-  height: 100vh;
-  background-image: url(../img/bg-top-1.jpg);
-  -webkit-background-size: cover;
-  background-size: cover; }
+  height: 100vh; }
   #advantage h3, #advantage p {
     color: #fff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
@@ -406,10 +395,7 @@ header {
 /*========== Contacts ==========*/
 #contacts {
   height: auto;
-  overflow: auto;
-  background-image: url(../img/bg-top-2.jpg);
-  -webkit-background-size: cover;
-  background-size: cover; }
+  overflow: auto; }
   #contacts h3 {
     color: #fff; }
   #contacts .row {
