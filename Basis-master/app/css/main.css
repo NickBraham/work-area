@@ -1,3 +1,6 @@
+body {
+  display: grid; }
+
 a {
   text-decoration: none;
   outline: none;
@@ -45,9 +48,10 @@ button:focus {
   background-color: transparent;
   outline-style: none; }
 
-section {
+section, footer {
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+  padding: 65px 0px; }
 
 .parallax-container {
   height: 320px;
@@ -62,6 +66,17 @@ section {
 
 .right {
   float: right; }
+
+.row-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 
 a.sign {
   display: inline-block;
@@ -124,16 +139,78 @@ header {
 
 #about {
   background-color: #f4f4f4; }
-  #about .review {
-    height: 424px; }
-    #about .review h4 {
-      text-transform: uppercase;
-      color: #f7b519;
-      font-size: 24px; }
-    #about .review p {
-      text-align: left; }
+  #about .follow {
+    color: #fff;
+    font-size: 13px;
+    padding: 20px 53px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #eeb013;
+    margin: 10px 0px;
+    border: 1px solid transparent; }
+    #about .follow:hover {
+      background-color: transparent;
+      color: #eeb013;
+      border: 1px solid #eeb013;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+  #about .review h4 {
+    text-transform: uppercase;
+    color: #f7b519;
+    font-size: 24px; }
+  #about .review p {
+    text-align: left; }
 
 #testimonials {
   background-color: #f4f4f4; }
   #testimonials .descr {
     text-align: left; }
+
+#blog .stats {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5; }
+
+#blog .content {
+  padding-top: 60px;
+  display: inline-block; }
+  #blog .content h4 {
+    font-size: 14px;
+    color: #808080;
+    text-transform: uppercase; }
+  #blog .content .ticket:hover {
+    -webkit-box-shadow: 0 50px 60px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: 0 50px 60px 0 rgba(0, 0, 0, 0.25);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+  #blog .content .cvadro {
+    background-color: #161616;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 65px;
+    width: 65px;
+    z-index: 20;
+    text-align: center; }
+    #blog .content .cvadro p {
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0;
+      font-size: 17px; }
+      #blog .content .cvadro p span {
+        font-size: 25px; }
+
+footer {
+  background-color: #1c1c1c;
+  color: #808080; }
+  footer h6 {
+    color: #fffefe;
+    font-size: 15px;
+    text-transform: uppercase; }
+  footer p {
+    color: #acacac;
+    font-size: 13px; }
+  footer ul, footer li {
+    list-style: none; }

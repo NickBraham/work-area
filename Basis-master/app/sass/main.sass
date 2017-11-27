@@ -1,5 +1,7 @@
 @import "mixins"
 
+body
+	display: grid
 a
 	text-decoration: none
 	outline: none
@@ -38,9 +40,10 @@ button:hover
 button:focus
 	background-color: transparent
 	outline-style: none
-section
+section,footer
 	display: inline-block
 	width: 100%
+	padding: 65px 0px
 .parallax-container
 	height: 320px
 	background: transparent
@@ -51,7 +54,9 @@ section
 	float: left
 .right
 	float: right
-
+.row-flex
+	display: flex
+	flex-flow: row wrap
 a.sign
 	display: inline-block
 	margin-top: 20px
@@ -105,8 +110,17 @@ header
 		text-transform: none
 #about
 	background-color: #f4f4f4
+	.follow
+		+more-button
+		background-color: #eeb013
+		margin: 10px 0px
+		border: 1px solid transparent
+		&:hover
+			background-color: transparent
+			color: #eeb013
+			border: 1px solid #eeb013
+			+flow
 	.review
-		height: 424px
 		h4
 			text-transform: uppercase
 			color: #f7b519
@@ -117,4 +131,49 @@ header
 	background-color: #f4f4f4
 	.descr
 		text-align: left
+#blog
+	.stats
+		text-align: center
+		border-bottom: 1px solid #e5e5e5
+	.content
+		padding-top: 60px 		
+		display: inline-block
+		h4
+			font-size: 14px
+			color: #808080
+			text-transform: uppercase
+		.ticket
+			&:hover
+				+mid-shadow
+				+flow
+		.cvadro
+			background-color: #161616
+			display: inline-block
+			position: absolute
+			top: 0
+			left: 15px
+			height: 65px
+			width: 65px
+			z-index: 20
+			text-align: center
+			p 
+				color: #fff
+				text-transform: uppercase
+				margin: 0
+				font-size: 17px
+				span
+					font-size: 25px
+footer
+	background-color: #1c1c1c
+	color: #808080
+	h6
+		color: #fffefe
+		font-size: 15px
+		text-transform: uppercase
+	p
+		color: #acacac
+		font-size: 13px
+	ul,li
+		list-style: none
+
 
