@@ -26,9 +26,9 @@ var jsfiles = [
 	'app/libs/jquery/jquery-1.11.1.min.js',
 	'app/libs/bootstrap/bootstrap.min.js',
 	'app/libs/parallax/parallax.min.js',
-	'app/libs/page-scroll2id/jquery.malihu.PageScroll2id.js',
 	'app/libs/wow/wow.js',
-	'app/libs/waypoints/waypoints-1.6.2.min.js'
+	'app/libs/waypoints/waypoints-1.6.2.min.js',
+	'app/libs/page-scroll2id/jquery.malihu.PageScroll2id.js'
 ];
 
 gulp.task('scripts', function () {

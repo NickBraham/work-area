@@ -134,8 +134,14 @@ header {
     text-transform: uppercase; }
   header h3 {
     color: #f7b519;
-    font-size: 36px;
+    font-size: 28px;
     text-transform: none; }
+  header h2 {
+    color: #161616;
+    font-size: 40px; }
+  header span {
+    color: #f7b519;
+    font-size: 44px; }
 
 #about {
   background-color: #f4f4f4; }
@@ -207,10 +213,12 @@ footer {
   color: #808080; }
   footer h6 {
     color: #fffefe;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase; }
   footer p {
     color: #acacac;
-    font-size: 13px; }
+    font-size: 16px; }
   footer ul, footer li {
-    list-style: none; }
+    list-style: none;
+    color: #acacac;
+    font-size: 16px; }
